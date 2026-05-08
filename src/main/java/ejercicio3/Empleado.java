@@ -1,6 +1,8 @@
-package ejercicio2.conpreparedstatement;
+package ejercicio3;
 
-public class Empleado {
+import java.io.Serializable;
+
+public class Empleado implements Serializable{
 
 	private String dni;
 	private String nombre;

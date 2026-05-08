@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConectorBaseDatos{
 /*Declaramos tres constantes con la URL de la conexión, el usuario y la contraseña*/
-private static final String URL = "jdbc:mysql://localhost:3306/empresa";
+	private static final String URL = "jdbc:mysql://localhost:3306/empresa";
     private static final String USER = "root";
     private static final String PASSWORD = "";
 
