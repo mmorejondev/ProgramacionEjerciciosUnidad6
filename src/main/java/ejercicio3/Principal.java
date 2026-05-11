@@ -18,9 +18,8 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		Connection conn = null;
 		ConectorBaseDatos conector = new ConectorBaseDatos();
-		conn = conector.obtenerConexion();
+		Connection conn = conector.obtenerConexion();
 				
 		Scanner teclado = new Scanner (System.in);
 		
