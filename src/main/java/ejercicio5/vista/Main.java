@@ -26,13 +26,13 @@ public class Main {
         		controlador.agregarLibro(scanner);
             	break;
         	case 2:
-            	//agregarRevista(scanner);
+            	controlador.agregarRevista(scanner);
             	break;
         	case 3:
             	controlador.prestarLibro(scanner);
             	break;
         	case 4:
-            	//devolverLibro(scanner);
+            	controlador.devolverLibro(scanner);
             	break;
         	case 5:
             	System.out.println("Saliendo del sistema...");

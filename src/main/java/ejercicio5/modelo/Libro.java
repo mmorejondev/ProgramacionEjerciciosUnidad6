@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Libro extends Item{
+public class Libro extends Item implements Prestable{
 
 	String autor;
 	String editorial;
@@ -89,6 +89,19 @@ public class Libro extends Item{
 			
 		}
 		return l;
+	}
+
+	@Override
+	public void prestar() {
+		if (!this.getPrestado())
+			this.setPrestado(true);
+	}
+
+	@Override
+	public void devolver() {
+
+		if (this.getPrestado())
+			this.setPrestado(false);
 	}
 	
 	

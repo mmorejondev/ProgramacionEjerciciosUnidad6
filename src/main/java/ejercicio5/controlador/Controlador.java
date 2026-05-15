@@ -29,9 +29,38 @@ public class Controlador {
 		int id = scanner.nextInt();
 		scanner.nextLine();
 		Libro l = Libro.leerLibroBD(id);
-		l.setPrestado(true);
+		l.prestar();
 		l.guardarEnBaseDeDatos();
 		
 		
+	}
+	
+	public void devolverLibro(Scanner scanner) {
+		System.out.print("Ingrese el id del libro a devolver: ");
+		int id = scanner.nextInt();
+		scanner.nextLine();
+		Libro l = Libro.leerLibroBD(id);
+		l.devolver();
+		l.guardarEnBaseDeDatos();
+		
+		
+	}
+
+	public void agregarRevista(Scanner teclado) {
+		System.out.print("Ingrese el id de la revista: ");
+		int id = teclado.nextInt();
+		teclado.nextLine();
+		System.out.print("Ingrese título de la revista: ");
+		String titulo = teclado.nextLine();
+		System.out.print("Ingrese año de publicación: ");
+		int anyoPublicacion = teclado.nextInt();
+		teclado.nextLine(); // Consume newline
+		System.out.print("Ingrese periodicidad de la revista: ");
+		String periodicidad = teclado.nextLine();
+		System.out.print("Ingrese tema de la revista: ");
+		String tema = teclado.nextLine();
+	
+		Revista r = new Revista(id,titulo,anyoPublicacion,periodicidad,tema);
+		r.guardarEnBaseDeDatos();		
 	}
 }

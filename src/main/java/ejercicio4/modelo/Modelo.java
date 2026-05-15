@@ -14,6 +14,9 @@ public class Modelo {
 	ConectorBaseDatos conector = new ConectorBaseDatos();
 	Connection conn = conector.obtenerConexion();
 	
+	/**
+	 * Metodo que devuelve una lista de empleados desde el almacenamiento.
+	 * */
 	public List<Empleado> leerDatos(){
 		List<Empleado> listaEmpleados = new ArrayList<>();
 		String consulta = "SELECT * FROM empleados";
