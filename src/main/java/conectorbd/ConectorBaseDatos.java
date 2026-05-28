@@ -22,7 +22,7 @@ public Connection obtenerConexion() {
             System.out.println("Error al conectar: " + e.getMessage());
         }
         return conn;
-    }
+}
 
 
 }

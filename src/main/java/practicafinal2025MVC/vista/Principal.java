@@ -19,9 +19,7 @@ public class Principal {
 
 		
 		Controlador controlador = new Controlador();
-		
-		
-		/*
+					
 		List<Videojuego> filtradosPrecio = controlador.filtrarPorPrecio();
 		for (Videojuego v: filtradosPrecio)
 			System.out.println(v);
@@ -29,9 +27,9 @@ public class Principal {
 		List<Videojuego> filtradosPlataforma = controlador.filtrarPorPlataforma();
 		for (Videojuego v: filtradosPlataforma)
 			System.out.println(v);
-		*/
-		//controlador.insertarNuevoVideojuego();
-		//controlador.borrarVideojuego();
+		
+		controlador.insertarNuevoVideojuego();
+		controlador.borrarVideojuego();
 		controlador.modificarPrecioVideojuegoPorId();
 				
 		
