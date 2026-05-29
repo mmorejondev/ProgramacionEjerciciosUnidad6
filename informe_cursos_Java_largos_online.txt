@@ -1,0 +1,18 @@
+Nombre del curso: Java SpringBoot
+Profesor: Miguel
+Duración: 100
+Precio: 550.0
+Modalidad: Online
+
+Nombre del curso: Introducción a Java
+Profesor: Lucía
+Duración: 50
+Precio: 250.0
+Modalidad: Online
+
+Nombre del curso: Programación Básica en Java
+Profesor: Miguel
+Duración: 50
+Precio: 150.0
+Modalidad: Online
+
