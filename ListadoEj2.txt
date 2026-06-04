@@ -1,0 +1,120 @@
+Codigo: R001
+Aula:Aula 101
+Profesor: María
+Fecha: 2026-05-10 - Hora: 09:00
+Duración: 60
+
+Codigo: R002
+Aula:Aula 203
+Profesor: Juan
+Fecha: 2026-05-10 - Hora: 11:30
+Duración: 90
+
+Codigo: R003
+Aula:Laboratorio 1
+Profesor: Ana
+Fecha: 2026-05-11 - Hora: 08:30
+Duración: 120
+
+Codigo: R004
+Aula:Aula 105
+Profesor: Carlos
+Fecha: 2026-05-11 - Hora: 10:00
+Duración: 60
+
+Codigo: R005
+Aula:Laboratorio 2
+Profesor: María
+Fecha: 2026-05-12 - Hora: 12:00
+Duración: 90
+
+Codigo: R006
+Aula:Aula 301
+Profesor: Juan
+Fecha: 2026-05-12 - Hora: 08:15
+Duración: 45
+
+Codigo: R007
+Aula:Salón de actos
+Profesor: Ana
+Fecha: 2026-05-13 - Hora: 11:00
+Duración: 120
+
+Codigo: R008
+Aula:Aula 204
+Profesor: Miguel
+Fecha: 2026-05-13 - Hora: 09:30
+Duración: 60
+
+Codigo: R009
+Aula:Laboratorio 3
+Profesor: María
+Fecha: 2026-05-14 - Hora: 12:30
+Duración: 90
+
+Codigo: R010
+Aula:Aula 102
+Profesor: Carlos
+Fecha: 2026-05-14 - Hora: 08:30
+Duración: 60
+
+Codigo: R011
+Aula:Aula 205
+Profesor: Juan
+Fecha: 2026-05-15 - Hora: 10:30
+Duración: 90
+
+Codigo: R012
+Aula:Laboratorio 1
+Profesor: Ana
+Fecha: 2026-05-15 - Hora: 09:00
+Duración: 120
+
+Codigo: R013
+Aula:Aula 302
+Profesor: Miguel
+Fecha: 2026-05-18 - Hora: 12:00
+Duración: 60
+
+Codigo: R014
+Aula:Biblioteca
+Profesor: María
+Fecha: 2026-05-18 - Hora: 10:00
+Duración: 45
+
+Codigo: R015
+Aula:Aula 103
+Profesor: Carlos
+Fecha: 2026-05-19 - Hora: 13:00
+Duración: 60
+
+Codigo: R016
+Aula:Laboratorio 2
+Profesor: Juan
+Fecha: 2026-05-19 - Hora: 08:30
+Duración: 120
+
+Codigo: R017
+Aula:Aula 201
+Profesor: Ana
+Fecha: 2026-05-20 - Hora: 11:00
+Duración: 90
+
+Codigo: R018
+Aula:Aula 106
+Profesor: Miguel
+Fecha: 2026-05-20 - Hora: 09:00
+Duración: 60
+
+Codigo: R019
+Aula:Laboratorio 3
+Profesor: María
+Fecha: 2026-05-21 - Hora: 12:00
+Duración: 120
+
+Codigo: R073
+Aula:Música
+Profesor: Juanillo
+Fecha: 10-06-2026 - Hora: 23:00
+Duración: 2
+

@@ -98,6 +98,14 @@ public class Principal {
 					e.printStackTrace();
 				}
 			}else if (opcion==4) {
+				try {
+					gr.setReservas(mapeador.readValue(archivoEntrada, new TypeReference<Map<String,Reserva>>(){}));
+					gr.crearArchivoTexto();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
 				//Equivalente al ejercicio 1, pero recorriendo el mapa.
 			}else if (opcion==5) {
 				try {
@@ -121,6 +129,7 @@ public class Principal {
 								listaPorProfe.add(r);
 								mapaProfeReservas.put(nombreProfe,listaPorProfe);
 							}
+						
 						}
 							
 					}

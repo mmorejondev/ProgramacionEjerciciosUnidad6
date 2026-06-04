@@ -1,8 +1,14 @@
 package examenud5.ejercicio2;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
+import examenud5.ejercicio1.Curso;
 
 public class GestorReservas {
 
@@ -64,6 +70,29 @@ public class GestorReservas {
 		
 		
 		
+	}
+
+	public void crearArchivoTexto() {
+		File archivoTextoSalida = new File("ListadoEj2.txt");
+		try(BufferedWriter bw = new BufferedWriter(new FileWriter(archivoTextoSalida))){
+		for (Reserva r: this.reservas.values()) {
+			bw.write("Codigo: " + r.getId());
+			bw.newLine();
+			bw.write("Aula:" + r.getAula());
+			bw.newLine();
+			bw.write("Profesor: " + r.getProfesor());
+			bw.newLine();
+			bw.write("Fecha: " + r.getFecha() + " - Hora: " + r.getHora());
+			bw.newLine();
+			bw.write("Duración: " + r.getDuracion());
+			bw.newLine();
+			bw.newLine();
+			
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	
